@@ -60,7 +60,7 @@ namespace TribeVoiceControl.Desktop
 
         void HandleTribe(string[] args)
         {
-            switch (args[1].ToLower())
+            switch (args[1].ToUpper())
             {
                 case "SCENE":
                     HandleSceneChange(args);
